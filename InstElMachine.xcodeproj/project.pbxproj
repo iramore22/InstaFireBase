@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B80D0CD3E2FCC47623B7874 /* Pods_InstElMachine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661F3E79D6E16D7996EC7A59 /* Pods_InstElMachine.framework */; };
+		D3388FEC1F168594004E0B9F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3388FEB1F168594004E0B9F /* Extensions.swift */; };
+		D3388FEE1F168D3E004E0B9F /* SearchCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3388FED1F168D3E004E0B9F /* SearchCollectionViewController.swift */; };
 		D3DACAC11F1626AC00F24C95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DACAC01F1626AC00F24C95 /* AppDelegate.swift */; };
-		D3DACAC31F1626AC00F24C95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DACAC21F1626AC00F24C95 /* ViewController.swift */; };
 		D3DACAC61F1626AC00F24C95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DACAC41F1626AC00F24C95 /* Main.storyboard */; };
 		D3DACAC81F1626AC00F24C95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DACAC71F1626AC00F24C95 /* Assets.xcassets */; };
 		D3DACACB1F1626AC00F24C95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DACAC91F1626AC00F24C95 /* LaunchScreen.storyboard */; };
+		D3DACAD51F16321B00F24C95 /* AddPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DACAD41F16321B00F24C95 /* AddPictureViewController.swift */; };
+		D3DACAD71F16396E00F24C95 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3DACAD61F16396E00F24C95 /* GoogleService-Info.plist */; };
+		D3DACAD91F163B7700F24C95 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DACAD81F163B7700F24C95 /* FeedViewController.swift */; };
+		D3DACADF1F1642AF00F24C95 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DACADE1F1642AF00F24C95 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64277BC731906E41F7BE6B59 /* Pods-InstElMachine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstElMachine.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstElMachine/Pods-InstElMachine.release.xcconfig"; sourceTree = "<group>"; };
+		661F3E79D6E16D7996EC7A59 /* Pods_InstElMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstElMachine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BEC16FE5F581DBEABD84A26 /* Pods-InstElMachine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstElMachine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstElMachine/Pods-InstElMachine.debug.xcconfig"; sourceTree = "<group>"; };
+		D3388FEB1F168594004E0B9F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D3388FED1F168D3E004E0B9F /* SearchCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewController.swift; sourceTree = "<group>"; };
 		D3DACABD1F1626AC00F24C95 /* InstElMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstElMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3DACAC01F1626AC00F24C95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3DACAC21F1626AC00F24C95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D3DACAC51F1626AC00F24C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3DACAC71F1626AC00F24C95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3DACACA1F1626AC00F24C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3DACACC1F1626AC00F24C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DACAD41F16321B00F24C95 /* AddPictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPictureViewController.swift; sourceTree = "<group>"; };
+		D3DACAD61F16396E00F24C95 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D3DACAD81F163B7700F24C95 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		D3DACADE1F1642AF00F24C95 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B80D0CD3E2FCC47623B7874 /* Pods_InstElMachine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20ECD9B069CBED22570CD6DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				661F3E79D6E16D7996EC7A59 /* Pods_InstElMachine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5178198BC64CDF3B7BE01836 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BEC16FE5F581DBEABD84A26 /* Pods-InstElMachine.debug.xcconfig */,
+				64277BC731906E41F7BE6B59 /* Pods-InstElMachine.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3388FEA1F168584004E0B9F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D3388FEB1F168594004E0B9F /* Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		D3DACAB41F1626AC00F24C95 = {
 			isa = PBXGroup;
 			children = (
 				D3DACABF1F1626AC00F24C95 /* InstElMachine */,
 				D3DACABE1F1626AC00F24C95 /* Products */,
+				5178198BC64CDF3B7BE01836 /* Pods */,
+				20ECD9B069CBED22570CD6DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +96,51 @@
 		D3DACABF1F1626AC00F24C95 /* InstElMachine */ = {
 			isa = PBXGroup;
 			children = (
+				D3388FEA1F168584004E0B9F /* Extensions */,
+				D3DACADD1F16425E00F24C95 /* Supporting Files */,
+				D3DACADC1F16425700F24C95 /* Layout */,
+				D3DACADB1F16424400F24C95 /* Controllers */,
+				D3DACADA1F16423600F24C95 /* Models */,
 				D3DACAC01F1626AC00F24C95 /* AppDelegate.swift */,
-				D3DACAC21F1626AC00F24C95 /* ViewController.swift */,
-				D3DACAC41F1626AC00F24C95 /* Main.storyboard */,
-				D3DACAC71F1626AC00F24C95 /* Assets.xcassets */,
-				D3DACAC91F1626AC00F24C95 /* LaunchScreen.storyboard */,
-				D3DACACC1F1626AC00F24C95 /* Info.plist */,
 			);
 			path = InstElMachine;
+			sourceTree = "<group>";
+		};
+		D3DACADA1F16423600F24C95 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3DACADE1F1642AF00F24C95 /* Post.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D3DACADB1F16424400F24C95 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3DACAD41F16321B00F24C95 /* AddPictureViewController.swift */,
+				D3DACAD81F163B7700F24C95 /* FeedViewController.swift */,
+				D3388FED1F168D3E004E0B9F /* SearchCollectionViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D3DACADC1F16425700F24C95 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				D3DACAC41F1626AC00F24C95 /* Main.storyboard */,
+				D3DACAC91F1626AC00F24C95 /* LaunchScreen.storyboard */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		D3DACADD1F16425E00F24C95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3DACAD61F16396E00F24C95 /* GoogleService-Info.plist */,
+				D3DACAC71F1626AC00F24C95 /* Assets.xcassets */,
+				D3DACACC1F1626AC00F24C95 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3DACACF1F1626AC00F24C95 /* Build configuration list for PBXNativeTarget "InstElMachine" */;
 			buildPhases = (
+				DF4805EF95ED64148DF450A8 /* [CP] Check Pods Manifest.lock */,
 				D3DACAB91F1626AC00F24C95 /* Sources */,
 				D3DACABA1F1626AC00F24C95 /* Frameworks */,
 				D3DACABB1F1626AC00F24C95 /* Resources */,
+				36B8839F91456BD6BD05BF2D /* [CP] Embed Pods Frameworks */,
+				51DF7DDB274939E38CDF2716 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3DACACB1F1626AC00F24C95 /* LaunchScreen.storyboard in Resources */,
+				D3DACAD71F16396E00F24C95 /* GoogleService-Info.plist in Resources */,
 				D3DACAC81F1626AC00F24C95 /* Assets.xcassets in Resources */,
 				D3DACAC61F1626AC00F24C95 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +215,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36B8839F91456BD6BD05BF2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstElMachine/Pods-InstElMachine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51DF7DDB274939E38CDF2716 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstElMachine/Pods-InstElMachine-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF4805EF95ED64148DF450A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D3DACAB91F1626AC00F24C95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3DACAC31F1626AC00F24C95 /* ViewController.swift in Sources */,
+				D3388FEE1F168D3E004E0B9F /* SearchCollectionViewController.swift in Sources */,
+				D3DACAD51F16321B00F24C95 /* AddPictureViewController.swift in Sources */,
+				D3DACAD91F163B7700F24C95 /* FeedViewController.swift in Sources */,
+				D3DACADF1F1642AF00F24C95 /* Post.swift in Sources */,
 				D3DACAC11F1626AC00F24C95 /* AppDelegate.swift in Sources */,
+				D3388FEC1F168594004E0B9F /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +392,7 @@
 		};
 		D3DACAD01F1626AC00F24C95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BEC16FE5F581DBEABD84A26 /* Pods-InstElMachine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 83H63AD9J8;
@@ -270,6 +406,7 @@
 		};
 		D3DACAD11F1626AC00F24C95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64277BC731906E41F7BE6B59 /* Pods-InstElMachine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 83H63AD9J8;
@@ -300,6 +437,7 @@
 				D3DACAD11F1626AC00F24C95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
